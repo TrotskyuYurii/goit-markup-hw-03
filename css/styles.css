@@ -2,13 +2,45 @@
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-/* general */
+/* general clean original style*/
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px; /* 1128+15+15 */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+
 
 /* header */
 body {
@@ -86,6 +118,10 @@ body {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   background: #2e2f42;
+}
+
+.main-container{
+  height: 600px;
 }
 
 
