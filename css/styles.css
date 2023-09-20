@@ -184,6 +184,11 @@ padding-bottom: 120px;
   background-color: #F4F4FD;
 }
 
+.ourteam-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .ourteam-title {
   color: #2e2f42;
   text-align: center;
@@ -204,6 +209,11 @@ padding-bottom: 120px;
   background-color: #FFFFFF;
 }
 
+.ourteam-img{
+margin-bottom: 32px;
+
+}
+
 .ourteam-sub{
   color: #2E2F42;
   text-align: center;
@@ -211,36 +221,52 @@ padding-bottom: 120px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .ourteam-text{
     text-align: center;
     font-size: 16px;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em; 
+    margin-bottom: 32px;  
 }
 
 /* Section 4 ourportfolio */
-.ourportfolio-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;   
+
+.ourportfolio-container{
+margin-top: 120px;
+margin-bottom: 120px;
 }
+
+.ourportfolio-title {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize; 
+  margin-bottom: 72px; 
+}
+
+.ourportfolio-img{
+  margin-bottom: 32px;
+}
+
 .ourportfolio-sub {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;  
+    margin-bottom: 8px;  
 }
 .ourportfolio-text {
     font-size: 16px;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;  
+    margin-bottom: 32px;  
 }
 
 /* footer */
