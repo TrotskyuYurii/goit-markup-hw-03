@@ -186,6 +186,10 @@ padding-bottom: 120px;
   gap: 24px;
 }
 
+.strategy-list-item{
+  max-width: 264px;
+}
+
 .strategy-list-sub {
   color: #2e2f42;
   font-size: 20px;
