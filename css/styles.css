@@ -55,9 +55,10 @@ body {
 
 .header-container{
   display: flex;
-  gap: 300px;
+  /* gap: 300px; */
   height: 72px;
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+  align-items: center;
 }
 
 .header-navigation{
@@ -73,12 +74,14 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .adress-lists{
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-left: 200px;
 }
 
 .header-navigation{
@@ -117,6 +120,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 
