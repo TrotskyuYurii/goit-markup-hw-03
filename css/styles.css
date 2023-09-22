@@ -84,6 +84,7 @@ body {
   display: flex;
   gap: 76px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-link{
