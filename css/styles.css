@@ -225,10 +225,13 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #F4F4FD;
+  padding-bottom: 72px;
 }
 
 .ourteam-list{
+  display: flex;
   background-color: #FFFFFF;
+  gap: 24px;
 }
 
 .ourteam-item {
@@ -264,6 +267,16 @@ margin-bottom: 32px;
 .ourportfolio-container{
 margin-top: 120px;
 margin-bottom: 120px;
+}
+
+.ourportfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 18px;
+}
+
+.ourportfolio-item{
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .ourportfolio-title {
