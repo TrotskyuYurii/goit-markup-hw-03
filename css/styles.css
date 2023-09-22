@@ -244,14 +244,18 @@ padding-bottom: 120px;
 }
 
 
+
+
+
 /* Section 3 ourteam */
 .ourteam{
   background-color: #F4F4FD;
+  padding: 120px 0;
+  max-height: 732px;
 }
 
 .ourteam-container{
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .ourteam-title {
@@ -263,7 +267,7 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #F4F4FD;
-  padding-bottom: 72px;
+  margin-bottom: 72px
 }
 
 .ourteam-list{
@@ -353,7 +357,8 @@ margin-bottom: 120px;
 
 /* footer */
 .footer-container{
-  padding: 100px 0 100px;
+  padding-top: 100px; 
+  padding-bottom: 100px;
 }
 
 .footer{
