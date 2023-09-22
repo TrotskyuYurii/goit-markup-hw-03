@@ -307,17 +307,27 @@ margin-bottom: 32px;
     margin-bottom: 32px;  
 }
 
+
+
+
+
 /* Section 4 ourportfolio */
 
+.ourportfolio{
+  padding: 120px 0 120px 0;
+}
+
 .ourportfolio-container{
-margin-top: 120px;
-margin-bottom: 120px;
+/* margin-top: 120px;
+margin-bottom: 120px; */
 }
 
 .ourportfolio-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 18px;
+  /* gap: 24px 18px; */
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .ourportfolio-item{
