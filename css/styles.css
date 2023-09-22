@@ -58,6 +58,7 @@ body {
   gap: 300px;
   height: 72px;
   align-items: center;
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 .header-logo {
