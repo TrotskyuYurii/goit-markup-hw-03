@@ -55,10 +55,15 @@ body {
 
 .header-container{
   display: flex;
-  /* gap: 90px; */
+  gap: 300px;
+  height: 72px;
+  align-items: center;
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
+
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -71,12 +76,13 @@ body {
 .adress-lists{
   display: flex;
   gap: 40px;
-  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .header-navigation{
   display: flex;
   gap: 76px;
+  justify-content: space-between;
 }
 
 .header-link{
@@ -101,6 +107,7 @@ body {
 
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 40px;
   color: #2e2f42;
   font-size: 16px;
@@ -130,12 +137,12 @@ body {
 }
 
 
+/* Header */
 /* main */
 .main {
   color: #ffffff;
   text-align: center;
 
-  /* Header */
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
