@@ -64,11 +64,13 @@ body {
   background-color: #FFFFFF;
 }
 
+.header{
+  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
 .header-container{
   display: flex;
-  /* gap: 300px; */
   height: 72px;
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
   align-items: center;
 }
 
@@ -86,6 +88,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .adress-lists{
@@ -356,6 +359,7 @@ margin-bottom: 120px; */
 .ourportfolio-sub-text{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none; 
 }
 
 .ourportfolio-sub {
