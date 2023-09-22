@@ -280,6 +280,7 @@ margin-bottom: 120px;
 
 .ourportfolio-item{
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  background: var(--WHITE, #FFF);
 }
 
 .ourportfolio-title {
