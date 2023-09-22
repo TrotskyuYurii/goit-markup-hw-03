@@ -134,9 +134,12 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
+.header-menu-item{
+  padding: 24px 0;
+}
 
 .address{
   font-style: normal; 
@@ -385,6 +388,7 @@ margin-bottom: 120px; */
  background: #2E2F42;   
  padding: 100px 0;
 }
+
 .footer-logo{
     display: inline-block; 
     margin-bottom: 16px;
