@@ -379,12 +379,11 @@ margin-bottom: 120px; */
 
 /* footer */
 .footer-container{
-  padding-top: 100px; 
-  padding-bottom: 100px;
 }
 
 .footer{
  background: #2E2F42;   
+ padding: 100px 0;
 }
 .footer-logo{
     display: inline-block; 
