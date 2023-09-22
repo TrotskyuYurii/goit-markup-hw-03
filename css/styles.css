@@ -334,21 +334,23 @@ margin-bottom: 120px;
 
 /* footer */
 .footer-container{
-padding-top: 101.5px;
-padding-bottom: 100px;
+padding: 100px 0;
 }
 
 .footer{
  background: #2E2F42;   
 }
 .footer-logo{
+    display: inline-block; 
+    margin-bottom: 16px;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+     
 }
 
 .footer-logo span{
